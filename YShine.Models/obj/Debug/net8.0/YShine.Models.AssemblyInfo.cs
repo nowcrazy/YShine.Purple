@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YShine.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd1149764b2498d6f097c1f7782eddbc92dbd221")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bfc91f2a5c9ed13eacf32f690f8c25fd28e73a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("YShine.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YShine.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
