@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\YShine.Models.csproj" />
+    <ProjectReference Include="..\YShine.Repository\YShine.Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Service\" />
+    <None Remove="Service\IService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
+    <Folder Include="Service\IService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NETCore.Encrypt" Version="2.1.1" />
+  </ItemGroup>
+</Project>

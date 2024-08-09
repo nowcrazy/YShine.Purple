@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/YShine.Admin.WebApi.props" />
+</Project>

@@ -1,0 +1,61 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.Admin.WebApi", "YShine.Admin.WebApi.csproj", "{EF76FE52-D316-4237-A6FB-F4ADC504A9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.Models", "..\YShine.Models\YShine.Models.csproj", "{AAC782C1-4134-44B9-9A97-5E5BB2FBBE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.Tools", "..\YShine.Tools\YShine.Tools.csproj", "{6D195D22-2373-4FC3-9310-FE64ACC90277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.Repository", "..\YShine.Repository\YShine.Repository.csproj", "{29BA71A0-4FAA-45E3-9441-263B55DBFAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.Service", "..\YShine.Service\YShine.Service.csproj", "{FD7C02CB-E884-472E-8F09-596FA3952796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.ServiceCore", "..\YShine.ServiceCore\YShine.ServiceCore.csproj", "{AAC1476A-CD43-4826-8201-9D9347986DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YShine.Tasks", "..\YShine.Tasks\YShine.Tasks.csproj", "{4F5AE9BB-A6D9-40A4-9DB4-3FC0CA20B947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF76FE52-D316-4237-A6FB-F4ADC504A9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF76FE52-D316-4237-A6FB-F4ADC504A9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF76FE52-D316-4237-A6FB-F4ADC504A9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF76FE52-D316-4237-A6FB-F4ADC504A9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC782C1-4134-44B9-9A97-5E5BB2FBBE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC782C1-4134-44B9-9A97-5E5BB2FBBE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC782C1-4134-44B9-9A97-5E5BB2FBBE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC782C1-4134-44B9-9A97-5E5BB2FBBE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D195D22-2373-4FC3-9310-FE64ACC90277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D195D22-2373-4FC3-9310-FE64ACC90277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D195D22-2373-4FC3-9310-FE64ACC90277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D195D22-2373-4FC3-9310-FE64ACC90277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BA71A0-4FAA-45E3-9441-263B55DBFAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BA71A0-4FAA-45E3-9441-263B55DBFAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BA71A0-4FAA-45E3-9441-263B55DBFAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BA71A0-4FAA-45E3-9441-263B55DBFAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7C02CB-E884-472E-8F09-596FA3952796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7C02CB-E884-472E-8F09-596FA3952796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7C02CB-E884-472E-8F09-596FA3952796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7C02CB-E884-472E-8F09-596FA3952796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC1476A-CD43-4826-8201-9D9347986DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC1476A-CD43-4826-8201-9D9347986DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC1476A-CD43-4826-8201-9D9347986DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC1476A-CD43-4826-8201-9D9347986DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5AE9BB-A6D9-40A4-9DB4-3FC0CA20B947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5AE9BB-A6D9-40A4-9DB4-3FC0CA20B947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5AE9BB-A6D9-40A4-9DB4-3FC0CA20B947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5AE9BB-A6D9-40A4-9DB4-3FC0CA20B947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25B76FFE-4429-4B6F-A40D-8C8209AF69C4}
+	EndGlobalSection
+EndGlobal

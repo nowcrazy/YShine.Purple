@@ -1,0 +1,24 @@
+2024-08-09 20:46:13.6909 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-08-09 20:46:13.6952 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-08-09 20:46:13.6963 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-08-09 20:46:13.7011 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-08-09 20:46:13.7011 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-08-09 20:46:13.7129 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-09 20:46:13.7538 Info Validating config: Targets=5, ConfigItems=161, FilePath=/Users/zzz/GitHub/YShine.Purple/YShine.WebApi/NLog.config
+2024-08-09 20:46:13.7602 Info Configuration initialized.
+2024-08-09 20:50:20.5411 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-08-09 20:50:20.5453 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-08-09 20:50:20.5465 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-08-09 20:50:20.5515 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-08-09 20:50:20.5515 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-08-09 20:50:20.5634 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-09 20:50:20.6045 Info Validating config: Targets=5, ConfigItems=161, FilePath=/Users/zzz/GitHub/YShine.Purple/YShine.WebApi/NLog.config
+2024-08-09 20:50:20.6385 Info Configuration initialized.
+2024-08-09 21:07:43.1099 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=allfile)
+2024-08-09 21:07:43.1150 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=errorfile)
+2024-08-09 21:07:43.1162 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=sqlfile)
+2024-08-09 21:07:43.1212 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=consoleSql)
+2024-08-09 21:07:43.1212 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=blackhole)
+2024-08-09 21:07:43.1334 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-09 21:07:43.1745 Info Validating config: Targets=5, ConfigItems=161, FilePath=/Users/zzz/GitHubProject/YShine.Purple/YShine.WebApi/NLog.config
+2024-08-09 21:07:43.2075 Info Configuration initialized.

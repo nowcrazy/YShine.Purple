@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Common\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\Controllers\" />
+    <None Remove="Infrastructure\Models\" />
+    <None Remove="Infrastructure\HttpConstant\" />
+    <None Remove="Infrastructure\Enum\" />
+    <None Remove="Infrastructure\CustomException\" />
+    <None Remove="Infrastructure\Extension\" />
+    <None Remove="WebExtensions\" />
+    <None Remove="Infrastructure\IPInfo\Models\" />
+    <None Remove="Common\Helper\" />
+    <None Remove="Common\Helper\RedisHelp\" />
+    <None Remove="Infrastructure\JWT\" />
+    <None Remove="Infrastructure\IPInfos\" />
+    <None Remove="Infrastructure\Attribute\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Controllers\" />
+    <Folder Include="Infrastructure\Models\" />
+    <Folder Include="Infrastructure\HttpConstant\" />
+    <Folder Include="Infrastructure\Enum\" />
+    <Folder Include="Infrastructure\CustomException\" />
+    <Folder Include="Infrastructure\Extension\" />
+    <Folder Include="WebExtensions\" />
+    <Folder Include="Infrastructure\IPInfo\Models\" />
+    <Folder Include="Common\Helper\" />
+    <Folder Include="Common\Helper\RedisHelp\" />
+    <Folder Include="Infrastructure\JWT\" />
+    <Folder Include="Infrastructure\IPInfos\" />
+    <Folder Include="Infrastructure\Attribute\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.7" />
+    <PackageReference Include="UAParser.Core" Version="4.0.4" />
+    <PackageReference Include="IP2Region.Net" Version="2.0.2" />
+    <PackageReference Include="CSRedisCore" Version="3.8.803" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+    <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+  </ItemGroup>
+</Project>

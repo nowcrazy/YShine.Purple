@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Systemp\" />
+    <None Remove="Systemp\Dto\" />
+    <None Remove="Content\" />
+    <None Remove="Content\Dto\" />
+    <None Remove="Enum\" />
+    <None Remove="Page\" />
+    <None Remove="Public\" />
+    <None Remove="Public\Dto\" />
+    <None Remove="Generate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Systemp\" />
+    <Folder Include="Systemp\Dto\" />
+    <Folder Include="Content\" />
+    <Folder Include="Content\Dto\" />
+    <Folder Include="Enum\" />
+    <Folder Include="Page\" />
+    <Folder Include="Public\" />
+    <Folder Include="Public\Dto\" />
+    <Folder Include="Generate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SqlSugarCoreNoDrive" Version="5.1.4.166" />
+    <PackageReference Include="MiniExcel" Version="1.34.0" />
+  </ItemGroup>
+</Project>

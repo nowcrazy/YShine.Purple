@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/YShine.Admin.WebApi.props" />
+</Project>
