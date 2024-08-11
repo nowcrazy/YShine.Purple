@@ -26,7 +26,7 @@ using YShine.Tools.WebExtensions;
 
 namespace YShine.Admin.WebApi.Controllers.System
 {
-    [ApiController]
+    [ApiExplorerSettings(GroupName ="sys")]
     public class SysLoginController : BaseController
     {
         private readonly ICaptcha _captcha;

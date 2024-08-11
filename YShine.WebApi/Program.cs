@@ -1,5 +1,6 @@
 ﻿using NLog.Web;
 using SqlSugar.IOC;
+using YShine.Extension;
 using YShine.Tools;
 using YShine.Tools.Common.Helper.RedisHelp;
 using YShine.Tools.WebExtensions;
@@ -47,7 +48,7 @@ if (openRedis == "1")
 }
 
 //swagger扩展，文档管理
-//builder.Services.AddSwaggerConfig();
+builder.Services.AddSwaggerConfig();
 
 // 添加本地化服务
 builder.Services.AddLocalization(options => options.ResourcesPath = "");
@@ -61,7 +62,6 @@ builder.Services.AddSqlSugar(new IocConfig()
     IsAutoCloseConnection = true
 });
 #endregion
-
 
 
 

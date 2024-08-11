@@ -17,10 +17,12 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Controllers\System\" />
+    <None Remove="Extension\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Controllers\System\" />
+    <Folder Include="Extension\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\YShine.Tools\YShine.Tools.csproj">
